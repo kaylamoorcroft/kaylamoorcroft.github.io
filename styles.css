@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poiret+One&display=swap')
 :root {
     --violet: #7F91D7;
     --peach: #DD8C8B;
@@ -54,6 +55,7 @@ a.button:hover, a.button:active {
     color: white;
 }
 /* Setting up custom fonts*/
+/*
 @font-face {
     font-family: Garamond;
     src: url('/fonts/CormorantGaramond-Medium.ttf');
@@ -65,4 +67,4 @@ a.button:hover, a.button:active {
 @font-face {
     font-family: "Poiret One";
     src: url('/fonts/PoiretOne-Regular.ttf');
-}
+}*/
