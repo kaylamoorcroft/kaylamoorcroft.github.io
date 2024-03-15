@@ -56,13 +56,13 @@ a.button:hover, a.button:active {
 /* Setting up custom fonts*/
 @font-face {
     font-family: Garamond;
-    src: url(fonts/CormorantGaramond-Medium.ttf);
+    src: url('/fonts/CormorantGaramond-Medium.ttf');
 }
 @font-face {
     font-family: Cinzel;
-    src: url(fonts/Cinzel-Regular.ttf);
+    src: url('/fonts/Cinzel-Regular.ttf');
 }
 @font-face {
     font-family: "Poiret One";
-    src: url(fonts/PoiretOne-Regular.ttf);
+    src: url('/fonts/PoiretOne-Regular.ttf');
 }
