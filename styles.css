@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel|Garamond|Poiret+One);
+
+:root {
+    --violet: #7F91D7;
+    --peach: #DD8C8B;
+}
+
+body {
+    color: black;
+    font-family: Garamond, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    padding: 30px 0px;
+}
+
+div {
+    padding: 10px;
+}
+
+.content {
+    margin: auto;
+    max-width: 800px;
+}
+
+h1 {
+    font-family: Cinzel, Copperplate, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+p {
+    font-size: 110%;
+    line-height: 1.5;
+}
+
+.intro {
+    background-color: var(--violet);
+    text-align: center;
+    color: white;
+    font-family: "Poiret One", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.round-square {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
+.button {
+    background-color: var(--peach);
+    color: black;
+    font-family: "Poiret One", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a.button:hover, a.button:active {
+    background-color: var(--violet);
+    color: white;
+}
