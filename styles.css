@@ -72,7 +72,7 @@ footer {
 }
 .social-link:hover {
     background-color: var(--dark);
-    color: var(--light)
+    color: var(--light);
 }
 i {
     font-size: 1.5rem;
