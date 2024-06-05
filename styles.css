@@ -25,10 +25,15 @@ body {
 }
 .intro h1 {
     font-family: "Poiret One", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10vh;
 }
-.content {
-    margin: auto;
+#headshot {
+    height: 50vh;
+    max-height: 400px;
+}
+main {
     max-width: 800px;
+    margin: 50px auto;
 }
 h1 {
     font-family: Cinzel, Copperplate, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
