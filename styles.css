@@ -63,7 +63,7 @@ h1 {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     gap: 20px;
-    place-items: center top;
+    place-items: center start;
   }
 .project-tile {
     text-align: center;
@@ -85,7 +85,7 @@ h1 {
 }
 .project-tile:hover {
     transition: transform 0.1s ease-in-out 0ms;
-    transform: scale(102%);
+    transform: scale(1.02);
 }
 .project-tile img:hover {
     box-shadow: 0 5px 20px #888888;
