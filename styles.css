@@ -63,7 +63,7 @@ h1 {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     gap: 20px;
-    place-items: center start;
+    place-items: start center;
   }
 .project-tile {
     text-align: center;
