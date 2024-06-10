@@ -1,0 +1,78 @@
+:root {
+    --dark: #0a0a23;
+    --light: rgb(255,240,230);
+    --accent: hsl(240, 50%, 75%);
+    font-size: 20px;
+  }
+  * {
+    box-sizing: border-box;
+    /*border: 1px solid;*/
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: var(--dark);
+    text-align: center;
+  }
+  h1 {
+    margin-top: 0;
+    color: var(--light);
+    font-family: Rowdies, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+  }
+  fieldset, #description {
+    width: min(80%, 500px);
+    padding: 20px;
+    border: none;
+    font-family: Mate, serif;
+    border-radius: 20px;
+  }
+  fieldset {
+    background: var(--light);
+    margin: 40px;
+  }
+  legend {
+    position: relative;
+    top: 2em;
+    margin-bottom: 2em;
+    font-size: 0.8rem;
+  }
+  #description {
+    background: var(--accent);
+  }
+  input, button {
+    height: 1.8rem;
+    padding: 10px;
+    margin: 10px;
+    font-family: comfortaa, sans-serif;
+  }
+  input {
+    background: var(--light);
+    border-bottom: 2px solid var(--dark);
+    width: min(80%, 300px);
+    text-align: center;
+  }
+  button {
+    cursor: pointer;
+    background: var(--accent);
+    border: 2px solid var(--dark);
+    border-radius: 8px;
+    width: 100px;
+    text-transform: uppercase;
+  }
+  button:hover {
+    color: var(--light);
+  }
+  #result {
+    font-family: comfortaa, sans-serif;
+    padding: 20px 10px 10px;
+  }
+  .hide {
+    display: none;
+  }
