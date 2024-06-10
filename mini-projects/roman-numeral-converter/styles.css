@@ -1,0 +1,61 @@
+:root {
+    --light: beige;
+    --grey: #726e91;
+    --accent: #4eb182;
+    --light-accent: #9f9db4;
+  }
+  body {
+    margin: 0;
+    background: var(--light);
+  }
+  main {
+    width: min(90%, 450px);
+    margin: auto;
+    padding: 60px 0;
+    text-align: center;
+  }
+  fieldset, #output {
+    width: min(100%, 250px);
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: var(--grey);
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    font-family: verdana, sans-serif;
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input, button, label {
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    text-align: center;
+    border: none;
+  }
+  input, button {
+    border: 1px solid black;
+    font-family: verdana, sans-serif;
+  }
+  input {
+    background-color: var(--light-accent);
+    color: white;
+  }
+  button {
+    background-color: var(--light);
+    cursor: pointer;
+  }
+  button:hover {
+    box-shadow: 1px 3px 5px; 
+    transform: scale(1.01);
+  }
+  h1 {
+    font-family: garamond, serif;
+    text-transform: uppercase;
+  }
+  .hide {
+    display: none;
+  }
