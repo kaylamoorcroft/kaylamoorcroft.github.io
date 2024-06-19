@@ -85,7 +85,6 @@ h2 {
 .project-tile img{
     margin: 20px 0;
     width: 100%;
-    aspect-ratio: 1/1;
     border-radius: 10px;
     border: 2px solid var(--dark);
 }
