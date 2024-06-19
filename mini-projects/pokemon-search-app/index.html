@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<title>Pokémon Search App</title>
+        <link rel="icon" type="image/x-icon" href="https://kaylamoorcroft.github.io\images\coding-icon.jpeg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Share+Tech+Mono&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=VT323&display=swap" rel="stylesheet">
+		<link rel='stylesheet' href='styles.css'>
+	</head>
+	<body>
+    <h1>Pokémon Search App</h1>
+    <main>
+      <label for="search-input">Search for Pokémon Name or ID:</label>
+      <input id="search-input" type="text" required>
+      <button id="search-button" type="button">Search</button>
+      <div id="pokemon-display">
+        <p>
+          <span id="pokemon-name"></span>
+          <span id="pokemon-id"></span>
+        </p>
+        <p>
+          <span id="weight"></span>
+          <span id="height"></span>
+        </p>
+        <img id="sprite">
+        <div id="types"></div>
+      </div>
+      <table>
+        <tr>
+          <th>Base</th>
+          <th>Stats</th>
+        </tr>
+        <tr>
+          <td>HP:</td>
+          <td id="hp"></td>
+        </tr>
+        <tr>
+          <td>Attack:</td>
+          <td id="attack"></td>
+        </tr>
+        <tr>
+          <td>Defense:</td>
+          <td id="defense"></td>
+        </tr>
+        <tr>
+          <td>Sp. Attack:</td>
+          <td id="special-attack"></td>
+        </tr>
+        <tr>
+          <td>Sp. Defense:</td>
+          <td id="special-defense"></td>
+        </tr>
+        <tr>
+          <td>Speed:</td>
+          <td id="speed"></td>
+        </tr>
+      </table>
+    </main>
+    <script src="script.js"></script>
+	</body>
+</html>
